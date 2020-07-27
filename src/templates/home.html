@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Demo - Detect License Plate VN</title>
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/css/style.css">
+
+
+    <script src="/static/js/jquery-3.5.1.min.js"></script>
+    <script src="/static/js/popper.min.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+
+    <style>
+        body,html {
+          height: 100%;
+      }
+  </style>
+</head>
+
+<body>
+    <div class="h-100 d-flex justify-content-center align-items-center">
+        <div id="upload-page" class="image-upload-wrap">
+
+            <button class="file-upload-btn" type="button" onclick="$('#file-upload-input').trigger( 'click' )">Add Image</button>
+
+            <input id="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
+            <div class="drag-text">
+                <h3>Drag and drop a file or select add Image</h3>
+            </div>
+        </div>
+        <div id="result-page">
+            <button type="button" onclick="removeUpload()" class="remove-image">Go back</button>
+
+            <div class="row">
+                <div id="original-image-container" class="col-lg-6">
+                </div>
+
+                <div id="result-image-container" class="col-lg-6">
+                </div>
+            </div>
+
+        </div> 
+    </div>
+
+    <script type="text/javascript" src="static/js/common.js" ></script>
+</body>
+
+</html>
