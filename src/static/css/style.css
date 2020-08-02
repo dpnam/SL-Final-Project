@@ -1,3 +1,58 @@
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 50%;
+  max-width: 50%;
+  padding: 5px;
+
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
 body {
   font-family: sans-serif;
   background-color: #eeeeee;
@@ -8,33 +63,6 @@ body {
   width: 600px;
   margin: 0 auto;
   padding: 20px;
-}
-
-.file-upload-btn {
-  width: 100%;
-  margin: 0;
-  color: #fff;
-  background: #1FB264;
-  border: none;
-  padding: 10px;
-  border-radius: 4px;
-  border-bottom: 4px solid #15824B;
-  transition: all .2s ease;
-  outline: none;
-  text-transform: uppercase;
-  font-weight: 700;
-}
-
-.file-upload-btn:hover {
-  background: #1AA059;
-  color: #ffffff;
-  transition: all .2s ease;
-  cursor: pointer;
-}
-
-.file-upload-btn:active {
-  border: 0;
-  transition: all .2s ease;
 }
 
 .file-upload-content {
@@ -53,14 +81,14 @@ body {
   cursor: pointer;
 }
 
-.image-upload-wrap {
+#image-upload-wrap {
   margin-top: 20px;
   border: 4px dashed #1FB264;
   position: relative;
 }
 
 .image-dropping,
-.image-upload-wrap:hover {
+#image-upload-wrap:hover {
   background-color: #1FB264;
   border: 4px dashed #ffffff;
 }
@@ -113,4 +141,87 @@ body {
 .remove-image:active {
   border: 0;
   transition: all .2s ease;
+}
+
+.image {
+  max-width: 90%;
+  /* max-height: 90%; */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.image:hover {
+  opacity: 0.7;
+}
+
+/* The Modal (background) */
+#modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+#modal-img {
+  margin: auto;
+  display: block;
+  max-width: 95%;
+  /* max-height: 90%; */
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#modal-caption {
+  margin: auto;
+  display: block;
+  width: 90%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+#modal-img, #modal-caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+#modal-close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+#modal-close:hover,
+#modal-close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  #modal-img {
+    width: 100%;
+  }
 }

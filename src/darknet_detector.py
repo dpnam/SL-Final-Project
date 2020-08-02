@@ -17,9 +17,6 @@ class DarknetDetector:
         self.meta_main = darknet.load_meta(meta_path.encode("ascii"))
         self.network_width = darknet.network_width(self.net_main)
         self.network_height = darknet.network_height(self.net_main)
-        self.darknet_image = darknet.make_image(
-            self.network_width, self.network_height, 3
-        )
 
     @staticmethod
     def yolo_to_xyxy(x, y, w, h):
@@ -52,10 +49,13 @@ class DarknetDetector:
             interpolation=cv2.INTER_LINEAR,
         )
 
-        darknet.copy_image_from_bytes(self.darknet_image, im_resized.tobytes())
+        darknet_image = darknet.make_image(
+            self.network_width, self.network_height, 3
+        )
+        darknet.copy_image_from_bytes(darknet_image, im_resized.tobytes())
 
         yolo_detections = darknet.detect_image(
-            self.net_main, self.meta_main, self.darknet_image, thresh=0.25
+            self.net_main, self.meta_main, darknet_image, thresh=0.75
         )
 
         h, w = im.shape[:2]
