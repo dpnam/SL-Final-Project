@@ -1,29 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+    <meta charset="UTF-8">
     <title>{{ title }} Detector</title>
-    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="/static/css/detector.css">
 </head>
-
 <body>
-    <h1>{{ title }} Detector</h1>
     <div class="container">
-        <div id="image-upload-wrap">
-
-            <input id="file-upload-input" type='file' onchange="upload(this);" accept="image/*" />
-            <div class="drag-text">
-                <h3>Drag and drop a file or select add Image</h3>
+        <h1>{{ title }} Detector</h1>
+        <div class="row">
+            <div class="column1" id="image-upload-wrap">
+                <input id="file-upload-input" type='file' onchange="upload(this);" accept="image/*" />
+                <div class="drag-text">
+                    <h3>Drag and drop a file or click to select an image</h3>
+                </div>
             </div>
         </div>
 
-        <button type="button" onclick="removeUpload()" class="remove-image">Clear</button>
-
         <div class="row">
-            <div id="original-image-container" class="column">
+            <div class="column2" id="original-image-container">
             </div>
 
-            <div id="result-image-container" class="column">
+            <div class="column2" id="result-image-container">
             </div>
         </div>
     </div>
@@ -34,7 +32,6 @@
       <div id="modal-caption"></div>
     </div>
 
-    <script type="text/javascript" src="/static/js/common.js" ></script>
+    <script type="text/javascript" src="/static/js/detector.js" ></script>
 </body>
-
 </html>

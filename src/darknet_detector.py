@@ -58,13 +58,14 @@ class DarknetDetector:
             self.net_main, self.meta_main, darknet_image, thresh=0.75
         )
 
+        detections = DarknetDetector.yolo_detections_to_detections(yolo_detections)
+
         h, w = im.shape[:2]
         width_ratio = w / self.network_width
         height_ratio = h / self.network_height
 
         scale = (width_ratio, height_ratio, width_ratio, height_ratio)
 
-        detections = DarknetDetector.yolo_detections_to_detections(yolo_detections)
         for detection in detections:
             detection.bbox = tuple(int(l * r) for l, r in zip(detection.bbox, scale))
 

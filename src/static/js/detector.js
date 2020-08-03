@@ -11,10 +11,6 @@ const modalClose = document.querySelector("#modal-close");
 
 let controller = new AbortController();
 
-// new ResizeObserver(() => {
-//     resultImageContainer.width(originalImageContainer.width()).height(originalImageContainer.height());
-// }).observe(originalImageContainer)
-
 imageUploadWrap.ondragenter = function() {
     this.classList.add('image-dropping');
 };
@@ -88,10 +84,5 @@ function clearAll() {
     controller = new AbortController();
     removeChildren(originalImageContainer);
     removeChildren(resultImageContainer);
-}
-
-function removeUpload() {
-    fileUploadInput.value = '';
-    clearAll();
 }
 
