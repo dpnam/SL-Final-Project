@@ -21,6 +21,11 @@ git clone https://github.com/dpnam/SL-Final-Project
 cd SL-Final-Project/src
 ```
 
+* Tải 3 file weights sau vào thư mục `SL-Final-Project/src/models`:
+	* yolov4.weights: https://github.com/dpnam/SL-Final-Project/releases/download/v1.0.0/yolov4.weights
+	* yolov4-plate.weights: https://github.com/dpnam/SL-Final-Project/releases/download/v1.0.0/yolov4-plate.weights
+	* yolov4-characters.weights: https://github.com/dpnam/SL-Final-Project/releases/download/v1.0.0/yolov4-characters.weights
+
 * Chạy trên linux:
 ```sh
 export FLASK_ENV=development
