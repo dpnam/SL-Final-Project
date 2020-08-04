@@ -103,15 +103,6 @@ def process_plate():
         plate_im = im[y1:y2, x1:x2]
         chars = characters_detector.detect(plate_im)
         draw_chars(im, chars, detection.bbox)
-        # for char in chars:
-        #     x1, y1, x2, y2 = char.bbox
-        #     cv2.rectangle(plate_im, (x1, y1), (x2, y2), (255, 0, 0), 1)
-        #     drawToRect(plate_im, char.name, char.bbox)
-
-        # plate_str = get_plate_string()
-        # cv2.putText(
-        #     im, plate_str, (x1, y2), cv2.FONT_HERSHEY_SIMPLEX, 0.4, (0, 255, 255), 2
-        # )
 
     _, buf = cv2.imencode(".jpg", im)
     response = make_response(buf.tobytes())
