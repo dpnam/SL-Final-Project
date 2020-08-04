@@ -1,0 +1,1322 @@
+[
+  {
+    "iteration": 100,
+    "detections_count": 5478687,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 0.08,
+        "tp": 186,
+        "fp": 168565
+      }
+    ],
+    "precision": 0.0,
+    "recall": 0.17,
+    "f1_score": 0.0,
+    "tp": 186,
+    "fp": 168565,
+    "fn": 897,
+    "avg_iou": 0.06,
+    "map": 0.000773
+  },
+  {
+    "iteration": 200,
+    "detections_count": 293669,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 0.16,
+        "tp": 0,
+        "fp": 0
+      }
+    ],
+    "precision": NaN,
+    "recall": 0.0,
+    "f1_score": NaN,
+    "tp": 0,
+    "fp": 0,
+    "fn": 1083,
+    "avg_iou": 0.0,
+    "map": 0.001633
+  },
+  {
+    "iteration": 300,
+    "detections_count": 62005,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 43.57,
+        "tp": 706,
+        "fp": 815
+      }
+    ],
+    "precision": 0.46,
+    "recall": 0.65,
+    "f1_score": 0.54,
+    "tp": 706,
+    "fp": 815,
+    "fn": 377,
+    "avg_iou": 29.96,
+    "map": 0.435699
+  },
+  {
+    "iteration": 400,
+    "detections_count": 20325,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 61.11,
+        "tp": 1046,
+        "fp": 1083
+      }
+    ],
+    "precision": 0.49,
+    "recall": 0.97,
+    "f1_score": 0.65,
+    "tp": 1046,
+    "fp": 1083,
+    "fn": 37,
+    "avg_iou": 32.41,
+    "map": 0.611067
+  },
+  {
+    "iteration": 500,
+    "detections_count": 5483,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 77.52,
+        "tp": 1072,
+        "fp": 576
+      }
+    ],
+    "precision": 0.65,
+    "recall": 0.99,
+    "f1_score": 0.79,
+    "tp": 1072,
+    "fp": 576,
+    "fn": 11,
+    "avg_iou": 46.91,
+    "map": 0.775169
+  },
+  {
+    "iteration": 600,
+    "detections_count": 3292,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 88.16,
+        "tp": 1079,
+        "fp": 398
+      }
+    ],
+    "precision": 0.73,
+    "recall": 1.0,
+    "f1_score": 0.84,
+    "tp": 1079,
+    "fp": 398,
+    "fn": 4,
+    "avg_iou": 52.9,
+    "map": 0.881594
+  },
+  {
+    "iteration": 700,
+    "detections_count": 2002,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 97.87,
+        "tp": 1081,
+        "fp": 54
+      }
+    ],
+    "precision": 0.95,
+    "recall": 1.0,
+    "f1_score": 0.97,
+    "tp": 1081,
+    "fp": 54,
+    "fn": 2,
+    "avg_iou": 77.88,
+    "map": 0.978671
+  },
+  {
+    "iteration": 800,
+    "detections_count": 1544,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 100.0,
+        "tp": 1083,
+        "fp": 10
+      }
+    ],
+    "precision": 0.99,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "tp": 1083,
+    "fp": 10,
+    "fn": 0,
+    "avg_iou": 84.88,
+    "map": 1.0
+  },
+  {
+    "iteration": 900,
+    "detections_count": 1211,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 100.0,
+        "tp": 1083,
+        "fp": 4
+      }
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "tp": 1083,
+    "fp": 4,
+    "fn": 0,
+    "avg_iou": 83.13,
+    "map": 1.0
+  },
+  {
+    "iteration": 1000,
+    "detections_count": 1226,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 100.0,
+        "tp": 1083,
+        "fp": 1
+      }
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "tp": 1083,
+    "fp": 1,
+    "fn": 0,
+    "avg_iou": 82.6,
+    "map": 1.0
+  },
+  {
+    "iteration": 1100,
+    "detections_count": 1228,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 100.0,
+        "tp": 1083,
+        "fp": 2
+      }
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "tp": 1083,
+    "fp": 2,
+    "fn": 0,
+    "avg_iou": 87.78,
+    "map": 1.0
+  },
+  {
+    "iteration": 1200,
+    "detections_count": 1175,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 100.0,
+        "tp": 1083,
+        "fp": 0
+      }
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "tp": 1083,
+    "fp": 0,
+    "fn": 0,
+    "avg_iou": 87.77,
+    "map": 1.0
+  },
+  {
+    "iteration": 1300,
+    "detections_count": 1237,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 100.0,
+        "tp": 1083,
+        "fp": 2
+      }
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "tp": 1083,
+    "fp": 2,
+    "fn": 0,
+    "avg_iou": 86.6,
+    "map": 1.0
+  },
+  {
+    "iteration": 1400,
+    "detections_count": 1134,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 100.0,
+        "tp": 1083,
+        "fp": 1
+      }
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "tp": 1083,
+    "fp": 1,
+    "fn": 0,
+    "avg_iou": 90.61,
+    "map": 1.0
+  },
+  {
+    "iteration": 1500,
+    "detections_count": 1178,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 100.0,
+        "tp": 1083,
+        "fp": 0
+      }
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "tp": 1083,
+    "fp": 0,
+    "fn": 0,
+    "avg_iou": 88.12,
+    "map": 1.0
+  },
+  {
+    "iteration": 1600,
+    "detections_count": 1204,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 100.0,
+        "tp": 1083,
+        "fp": 1
+      }
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "tp": 1083,
+    "fp": 1,
+    "fn": 0,
+    "avg_iou": 85.26,
+    "map": 1.0
+  },
+  {
+    "iteration": 1700,
+    "detections_count": 1123,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 100.0,
+        "tp": 1083,
+        "fp": 1
+      }
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "tp": 1083,
+    "fp": 1,
+    "fn": 0,
+    "avg_iou": 89.01,
+    "map": 1.0
+  },
+  {
+    "iteration": 1800,
+    "detections_count": 1094,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 100.0,
+        "tp": 1083,
+        "fp": 1
+      }
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "tp": 1083,
+    "fp": 1,
+    "fn": 0,
+    "avg_iou": 89.26,
+    "map": 1.0
+  },
+  {
+    "iteration": 1900,
+    "detections_count": 1100,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 100.0,
+        "tp": 1083,
+        "fp": 0
+      }
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "tp": 1083,
+    "fp": 0,
+    "fn": 0,
+    "avg_iou": 91.13,
+    "map": 1.0
+  },
+  {
+    "iteration": 2000,
+    "detections_count": 1098,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 100.0,
+        "tp": 1083,
+        "fp": 1
+      }
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "tp": 1083,
+    "fp": 1,
+    "fn": 0,
+    "avg_iou": 90.93,
+    "map": 1.0
+  },
+  {
+    "iteration": 2100,
+    "detections_count": 1119,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 100.0,
+        "tp": 1083,
+        "fp": 1
+      }
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "tp": 1083,
+    "fp": 1,
+    "fn": 0,
+    "avg_iou": 89.96,
+    "map": 1.0
+  },
+  {
+    "iteration": 2200,
+    "detections_count": 1090,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 100.0,
+        "tp": 1083,
+        "fp": 0
+      }
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "tp": 1083,
+    "fp": 0,
+    "fn": 0,
+    "avg_iou": 92.18,
+    "map": 1.0
+  },
+  {
+    "iteration": 2300,
+    "detections_count": 1090,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 100.0,
+        "tp": 1083,
+        "fp": 1
+      }
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "tp": 1083,
+    "fp": 1,
+    "fn": 0,
+    "avg_iou": 88.66,
+    "map": 1.0
+  },
+  {
+    "iteration": 2400,
+    "detections_count": 1097,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 100.0,
+        "tp": 1083,
+        "fp": 1
+      }
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "tp": 1083,
+    "fp": 1,
+    "fn": 0,
+    "avg_iou": 89.79,
+    "map": 1.0
+  },
+  {
+    "iteration": 2500,
+    "detections_count": 1283,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 100.0,
+        "tp": 1083,
+        "fp": 1
+      }
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "tp": 1083,
+    "fp": 1,
+    "fn": 0,
+    "avg_iou": 92.79,
+    "map": 1.0
+  },
+  {
+    "iteration": 2600,
+    "detections_count": 1138,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 100.0,
+        "tp": 1083,
+        "fp": 1
+      }
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "tp": 1083,
+    "fp": 1,
+    "fn": 0,
+    "avg_iou": 92.0,
+    "map": 1.0
+  },
+  {
+    "iteration": 2700,
+    "detections_count": 1090,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 100.0,
+        "tp": 1083,
+        "fp": 0
+      }
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "tp": 1083,
+    "fp": 0,
+    "fn": 0,
+    "avg_iou": 92.24,
+    "map": 1.0
+  },
+  {
+    "iteration": 2800,
+    "detections_count": 1103,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 100.0,
+        "tp": 1083,
+        "fp": 0
+      }
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "tp": 1083,
+    "fp": 0,
+    "fn": 0,
+    "avg_iou": 92.14,
+    "map": 1.0
+  },
+  {
+    "iteration": 2900,
+    "detections_count": 1085,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 100.0,
+        "tp": 1083,
+        "fp": 0
+      }
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "tp": 1083,
+    "fp": 0,
+    "fn": 0,
+    "avg_iou": 93.49,
+    "map": 1.0
+  },
+  {
+    "iteration": 3000,
+    "detections_count": 1103,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 100.0,
+        "tp": 1083,
+        "fp": 0
+      }
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "tp": 1083,
+    "fp": 0,
+    "fn": 0,
+    "avg_iou": 92.99,
+    "map": 1.0
+  },
+  {
+    "iteration": 3100,
+    "detections_count": 1085,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 100.0,
+        "tp": 1083,
+        "fp": 0
+      }
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "tp": 1083,
+    "fp": 0,
+    "fn": 0,
+    "avg_iou": 92.61,
+    "map": 1.0
+  },
+  {
+    "iteration": 3200,
+    "detections_count": 1087,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 100.0,
+        "tp": 1083,
+        "fp": 0
+      }
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "tp": 1083,
+    "fp": 0,
+    "fn": 0,
+    "avg_iou": 92.59,
+    "map": 1.0
+  },
+  {
+    "iteration": 3300,
+    "detections_count": 1084,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 100.0,
+        "tp": 1083,
+        "fp": 0
+      }
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "tp": 1083,
+    "fp": 0,
+    "fn": 0,
+    "avg_iou": 92.7,
+    "map": 1.0
+  },
+  {
+    "iteration": 3400,
+    "detections_count": 1088,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 100.0,
+        "tp": 1083,
+        "fp": 0
+      }
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "tp": 1083,
+    "fp": 0,
+    "fn": 0,
+    "avg_iou": 93.27,
+    "map": 1.0
+  },
+  {
+    "iteration": 3500,
+    "detections_count": 1084,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 100.0,
+        "tp": 1083,
+        "fp": 0
+      }
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "tp": 1083,
+    "fp": 0,
+    "fn": 0,
+    "avg_iou": 93.6,
+    "map": 1.0
+  },
+  {
+    "iteration": 3600,
+    "detections_count": 1088,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 100.0,
+        "tp": 1083,
+        "fp": 0
+      }
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "tp": 1083,
+    "fp": 0,
+    "fn": 0,
+    "avg_iou": 92.63,
+    "map": 1.0
+  },
+  {
+    "iteration": 3700,
+    "detections_count": 1084,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 100.0,
+        "tp": 1083,
+        "fp": 0
+      }
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "tp": 1083,
+    "fp": 0,
+    "fn": 0,
+    "avg_iou": 93.27,
+    "map": 1.0
+  },
+  {
+    "iteration": 3800,
+    "detections_count": 1088,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 100.0,
+        "tp": 1083,
+        "fp": 0
+      }
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "tp": 1083,
+    "fp": 0,
+    "fn": 0,
+    "avg_iou": 92.4,
+    "map": 1.0
+  },
+  {
+    "iteration": 3900,
+    "detections_count": 1085,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 100.0,
+        "tp": 1083,
+        "fp": 0
+      }
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "tp": 1083,
+    "fp": 0,
+    "fn": 0,
+    "avg_iou": 93.71,
+    "map": 1.0
+  },
+  {
+    "iteration": 4000,
+    "detections_count": 1084,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 100.0,
+        "tp": 1083,
+        "fp": 0
+      }
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "tp": 1083,
+    "fp": 0,
+    "fn": 0,
+    "avg_iou": 90.21,
+    "map": 1.0
+  },
+  {
+    "iteration": 4100,
+    "detections_count": 1085,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 100.0,
+        "tp": 1083,
+        "fp": 0
+      }
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "tp": 1083,
+    "fp": 0,
+    "fn": 0,
+    "avg_iou": 92.15,
+    "map": 1.0
+  },
+  {
+    "iteration": 4200,
+    "detections_count": 1085,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 100.0,
+        "tp": 1083,
+        "fp": 0
+      }
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "tp": 1083,
+    "fp": 0,
+    "fn": 0,
+    "avg_iou": 94.31,
+    "map": 1.0
+  },
+  {
+    "iteration": 4300,
+    "detections_count": 1083,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 100.0,
+        "tp": 1083,
+        "fp": 0
+      }
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "tp": 1083,
+    "fp": 0,
+    "fn": 0,
+    "avg_iou": 92.1,
+    "map": 1.0
+  },
+  {
+    "iteration": 4400,
+    "detections_count": 1084,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 100.0,
+        "tp": 1083,
+        "fp": 0
+      }
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "tp": 1083,
+    "fp": 0,
+    "fn": 0,
+    "avg_iou": 94.05,
+    "map": 1.0
+  },
+  {
+    "iteration": 4500,
+    "detections_count": 1084,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 100.0,
+        "tp": 1083,
+        "fp": 0
+      }
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "tp": 1083,
+    "fp": 0,
+    "fn": 0,
+    "avg_iou": 93.55,
+    "map": 1.0
+  },
+  {
+    "iteration": 4600,
+    "detections_count": 1083,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 100.0,
+        "tp": 1083,
+        "fp": 0
+      }
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "tp": 1083,
+    "fp": 0,
+    "fn": 0,
+    "avg_iou": 92.5,
+    "map": 1.0
+  },
+  {
+    "iteration": 4700,
+    "detections_count": 1085,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 100.0,
+        "tp": 1083,
+        "fp": 0
+      }
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "tp": 1083,
+    "fp": 0,
+    "fn": 0,
+    "avg_iou": 90.81,
+    "map": 1.0
+  },
+  {
+    "iteration": 4800,
+    "detections_count": 1083,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 100.0,
+        "tp": 1083,
+        "fp": 0
+      }
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "tp": 1083,
+    "fp": 0,
+    "fn": 0,
+    "avg_iou": 93.55,
+    "map": 1.0
+  },
+  {
+    "iteration": 4900,
+    "detections_count": 1084,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 100.0,
+        "tp": 1083,
+        "fp": 0
+      }
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "tp": 1083,
+    "fp": 0,
+    "fn": 0,
+    "avg_iou": 94.65,
+    "map": 1.0
+  },
+  {
+    "iteration": 5000,
+    "detections_count": 1084,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 100.0,
+        "tp": 1083,
+        "fp": 0
+      }
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "tp": 1083,
+    "fp": 0,
+    "fn": 0,
+    "avg_iou": 94.61,
+    "map": 1.0
+  },
+  {
+    "iteration": 5100,
+    "detections_count": 1083,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 100.0,
+        "tp": 1083,
+        "fp": 0
+      }
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "tp": 1083,
+    "fp": 0,
+    "fn": 0,
+    "avg_iou": 94.87,
+    "map": 1.0
+  },
+  {
+    "iteration": 5200,
+    "detections_count": 1083,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 100.0,
+        "tp": 1083,
+        "fp": 0
+      }
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "tp": 1083,
+    "fp": 0,
+    "fn": 0,
+    "avg_iou": 95.11,
+    "map": 1.0
+  },
+  {
+    "iteration": 5300,
+    "detections_count": 1083,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 100.0,
+        "tp": 1083,
+        "fp": 0
+      }
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "tp": 1083,
+    "fp": 0,
+    "fn": 0,
+    "avg_iou": 95.09,
+    "map": 1.0
+  },
+  {
+    "iteration": 5400,
+    "detections_count": 1084,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 100.0,
+        "tp": 1083,
+        "fp": 0
+      }
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "tp": 1083,
+    "fp": 0,
+    "fn": 0,
+    "avg_iou": 94.94,
+    "map": 1.0
+  },
+  {
+    "iteration": 5500,
+    "detections_count": 1083,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 100.0,
+        "tp": 1083,
+        "fp": 0
+      }
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "tp": 1083,
+    "fp": 0,
+    "fn": 0,
+    "avg_iou": 95.06,
+    "map": 1.0
+  },
+  {
+    "iteration": 5600,
+    "detections_count": 1085,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 100.0,
+        "tp": 1083,
+        "fp": 0
+      }
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "tp": 1083,
+    "fp": 0,
+    "fn": 0,
+    "avg_iou": 94.9,
+    "map": 1.0
+  },
+  {
+    "iteration": 5700,
+    "detections_count": 1084,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 100.0,
+        "tp": 1083,
+        "fp": 0
+      }
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "tp": 1083,
+    "fp": 0,
+    "fn": 0,
+    "avg_iou": 95.06,
+    "map": 1.0
+  },
+  {
+    "iteration": 5800,
+    "detections_count": 1084,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 100.0,
+        "tp": 1083,
+        "fp": 0
+      }
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "tp": 1083,
+    "fp": 0,
+    "fn": 0,
+    "avg_iou": 94.93,
+    "map": 1.0
+  },
+  {
+    "iteration": 5900,
+    "detections_count": 1083,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 100.0,
+        "tp": 1083,
+        "fp": 0
+      }
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "tp": 1083,
+    "fp": 0,
+    "fn": 0,
+    "avg_iou": 95.07,
+    "map": 1.0
+  },
+  {
+    "iteration": 6000,
+    "detections_count": 1083,
+    "unique_truth_count": 1083,
+    "classes": [
+      {
+        "id": 0,
+        "name": "plate",
+        "ap": 100.0,
+        "tp": 1083,
+        "fp": 0
+      }
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "tp": 1083,
+    "fp": 0,
+    "fn": 0,
+    "avg_iou": 95.05,
+    "map": 1.0
+  }
+]
