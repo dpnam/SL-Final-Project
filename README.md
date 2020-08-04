@@ -1,10 +1,13 @@
-# SL-Final-Project
-Detect license plate motorbike in VN
+﻿# SL-Final-Project
+Detect license plate motorbike in VN.
+
+# Report
+Xem tại: https://github.com/dpnam/SL-Final-Project/tree/master/report/Report.pdf
 
 # Cấu trúc thư mục
 * colab: chứa tệp Python Notebook dùng để train trên Google Colab.
 * raw-data: chứa dữ liệu gốc.
-* data: chưa dữ liệu dùng để train và test.
+* data: chứa dữ liệu dùng để train và test.
 * scripts: chứa các file scripts hỗ trợ chuẩn bị dữ liệu, ...
 * src: chứa mã nguồn của website.
 
